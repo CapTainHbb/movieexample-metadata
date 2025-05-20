@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"google.golang.org/grpc/reflection"
 	"log"
-	"movieexample-metadata/internal/repository/mysql"
+	"github.com/captainhbb/movieexample-metadata/internal/repository/mysql"
 	"net"
 	"os"
 	"time"
@@ -16,8 +16,8 @@ import (
 	"github.com/captainhbb/movieexample-discovery/pkg/discovery"
 	"github.com/captainhbb/movieexample-discovery/pkg/discovery/consul"
 
-	"movieexample-metadata/internal/controller/metadata"
-	grpchandler "movieexample-metadata/internal/handler/grpc"
+	"github.com/captainhbb/movieexample-metadata/internal/controller/metadata"
+	grpchandler "github.com/captainhbb/movieexample-metadata/internal/handler/grpc"
 )
 
 const serviceName = "metadata"

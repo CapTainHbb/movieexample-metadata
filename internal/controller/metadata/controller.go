@@ -3,8 +3,8 @@ package metadata
 import (
 	"context"
 	"errors"
-	"movieexample-metadata/internal/repository"
-	"movieexample-metadata/pkg/model"
+	"github.com/captainhbb/movieexample-metadata/internal/repository"
+	"github.com/captainhbb/movieexample-metadata/pkg/model"
 )
 
 // ErrNotFound is returned when a requested record is not

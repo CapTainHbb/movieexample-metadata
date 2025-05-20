@@ -1,4 +1,4 @@
-module movieexample-metadata
+module github.com/captainhbb/movieexample-metadata
 
 go 1.24.2
 

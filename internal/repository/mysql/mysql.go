@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"movieexample-metadata/pkg/model"
+	"github.com/captainhbb/movieexample-metadata/pkg/model"
 
 	mysqldriver "gorm.io/driver/mysql"
 	"gorm.io/gorm"

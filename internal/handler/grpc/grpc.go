@@ -7,8 +7,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"github.com/captainhbb/movieexample-protoapis/gen"
-	"movieexample-metadata/internal/controller/metadata"
-	"movieexample-metadata/pkg/model"
+	"github.com/captainhbb/movieexample-metadata/internal/controller/metadata"
+	"github.com/captainhbb/movieexample-metadata/pkg/model"
 )
 
 type Handler struct {
